@@ -41,4 +41,4 @@ Instruções sobre como criar um novo template para o [Be on the Net][] podem se
 
 [0]: http://beonthe.net/galerias/templates/galeria/72157610768205333/1
 [1]: http://syst3n.wordpress.com/
-[2]: http://syst3n.wordpress.com/about/
+[2]: http://syst3n.wordpress.com/contato
