@@ -228,7 +228,7 @@ body.videos #thumbnails img {
 
 
 /* Link to Selection */
-#select_pictures a {
+#go_to_selection a {
 	width:                  7em;
 	height:                 6em;
 	padding-left:           85px;
