@@ -27,14 +27,16 @@ body#selection h1 {
 	margin-bottom: 0          ;
 }
 
-body#checkout #order_form {
+body#checkout #order_form, 
+body#pictures_sent #order_form {
 	top: -200px;
 	margin-left: 500px;
 	width: 50%;
 	float: right;
 }
 
-body#checkout #order_form input {
+body#checkout #order_form input,
+body#pictures_sent #order_form input {
 margin-left:140px;
   
 }

@@ -467,10 +467,13 @@ body#selection #selection_size label {
 
 }
 
-body#checkout #selection_size {
+body#checkout #selection_size,
+body#pictures_sent #selection_size {
   margin-bottom:          20px;
 }
-body#checkout #selection_size label, 
+
+body#checkout #selection_size label,
+body#pictures_sent #selection_size label, 
 body#search #search_result_count label {
   display:                inline;
   margin:                 0;
@@ -535,7 +538,8 @@ input, textarea {
   margin:                 -1.25em -100px .75em 18em;
 }
 
-body#checkout input {
+body#checkout input,
+body#pictures_sent input {
 	display:                block;
 	width: 35%;
 	padding:                0 .3em;
@@ -577,12 +581,14 @@ button * {
 }
 
 /* Specific for checkout e-mail form */
-body#checkout #order_form p {
+body#checkout #order_form p,
+body#pictures_sent #order_form p {
   padding-left:            1.75em;
   
 }
 
-body#checkout #order_form {
+body#checkout #order_form,
+body#pictures_sent #order_form {
 	top: -200px;
 	position: relative;
 	float: right;
