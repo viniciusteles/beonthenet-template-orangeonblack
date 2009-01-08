@@ -46,7 +46,7 @@ a {
 
 
 #header h1#logo_screen {
-                                                              /* Exclusivo do Levi Pereira */
+  height:                 60px;
   margin:                 0px;
   padding:                13px 40px 14px 40px;
   position:               absolute;
@@ -55,10 +55,7 @@ a {
 }
 
 #logo_screen img {
-                                                              /* Exclusivo do Levi Pereira */
   display:                block;
-  width:                  260px;
-  height:                 60px;
 }
 
 #header ul {
