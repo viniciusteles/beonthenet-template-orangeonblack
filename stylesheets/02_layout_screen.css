@@ -447,10 +447,12 @@ body#selection #selection_size label {
 
 }
 
-body#checkout #selection_size {
+body#checkout #selection_size, 
+body#pictures_sent #selection_size {
   margin-bottom:          20px;
 }
 body#checkout #selection_size label, 
+body#pictures_sent #selection_size label, 
 body#search #search_result_count label {
   display:                inline;
   margin:                 0;
@@ -516,15 +518,6 @@ input, textarea {
   margin:                 -1.25em -100px .75em 18em;
 }
 
-body#checkout input {
-	display:                block;
-	width: 35%;
-	padding:                0 .3em;
-	border:                 1px inset;
-  margin:                 -1.25em 0 .75em 09em;
-}
-
-
 input:hover, textarea:hover {
 	border:                 1px solid;
 }
@@ -557,17 +550,53 @@ button * {
 	margin-bottom:          1em;
 }
 
-/* Specific for checkout e-mail form */
-body#checkout #order_form p {
-  padding-left:            1.75em;
-  
+/* Specific for checkout e-mail form */                 /* WARNING: includes "pictures_sent" bug! */
+body#checkout #order_form, 
+body#checkout form label, 
+body#pictures_sent #order_form, 
+body#pictures_sent form label {
+  position:               relative;
 }
 
-body#checkout #order_form {
-	top: -200px;
-	position: relative;
-	float: right;
-	}
+body#checkout #order_form, 
+body#pictures_sent #order_form {
+/*  float:                  right;*/
+/*  top:                    -128px;*/
+  position:               absolute;
+  top:                    272px;
+  right:                  70px;
+}
+
+body#checkout #order_form p, 
+body#pictures_sent #order_form p {
+  padding-left:            11em;
+}
+
+body#checkout form label, 
+body#pictures_sent form label {
+  left:                   100px;
+}
+
+body#checkout input, 
+body#pictures_sent input {
+  width:                  48%;
+  padding:                0 .3em;
+  border:                 1px inset;
+  margin-top:             -1.25em;
+  margin-right:           0;
+  margin-bottom:          .75em;
+}
+
+body#checkout button, 
+body#pictures_sent button {
+  float:                  right;
+}
+
+body#pictures_sent #submit_error {
+  position:               absolute;
+  top:                    200px;
+  right:                  60px;
+}
 
 /* Specific for global search form */
 #global_search {
