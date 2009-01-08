@@ -4,14 +4,16 @@ hr {
   margin:                 -8px 0 -7px 0;
 }
 
-#header {
-  height:                 77px;
+/* Header tabbed menu */
+#header ul {
+  padding-top:            10px;
 }
 
-#header ul {
-	top: 79px;
-	bottom:                 -1px;
+#header li {
+  padding:                0 0 0 7px;
+  margin-left:            10px;
 }
+/* /Header tabbed menu */
 
 .pages {
   padding:                1px 20px 5px 20px;
@@ -27,16 +29,14 @@ body#selection h1 {
 	margin-bottom: 0          ;
 }
 
-body#checkout #order_form, 
-body#pictures_sent #order_form {
+body#checkout #order_form {
 	top: -200px;
 	margin-left: 500px;
 	width: 50%;
 	float: right;
 }
 
-body#checkout #order_form input,
-body#pictures_sent #order_form input {
+body#checkout #order_form input {
 margin-left:140px;
   
 }
