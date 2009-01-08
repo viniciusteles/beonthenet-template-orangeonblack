@@ -5,15 +5,6 @@ body {
 	overflow:               hidden;
 }
 
-#header {
-  height:                 77px;
-}
-
-#header ul {
-	top: 79px;
-	bottom:                 -1px;
-}
-
 .pages {
   padding:                1px 20px 5px 20px;
   margin:                 5px 0;

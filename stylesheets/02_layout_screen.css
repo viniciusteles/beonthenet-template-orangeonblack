@@ -44,17 +44,21 @@ a {
   display:                none;
 }
 
+
 #header h1#logo_screen {
+                                                              /* Exclusivo do Levi Pereira */
   margin:                 0px;
-  position:				 absolute;
-  top:20px;
-  left:63px;
+  padding:                13px 40px 14px 40px;
+  position:               absolute;
+  top:                    0px;
+  left:                   60px;
 }
 
 #logo_screen img {
-                                                display:block;
-                                                width:318px;
-                                                height:46px;
+                                                              /* Exclusivo do Levi Pereira */
+  display:                block;
+  width:                  260px;
+  height:                 60px;
 }
 
 #header ul {
@@ -114,25 +118,20 @@ ul#thumbnails li {
 	width:                  260px;
 	height:			300px;
   margin:                 0 5.9em 1.5em 0;
-  padding: 50px;
-  
+  padding: 14px 50px 50px 50px;
+  position:               relative;
 }
 
-ul#thumbnails li h3 {
-	top: 270px;
-	position: relative;
-
-}
-
+ul#thumbnails li h3, 
 ul#thumbnails li h4 {
-	top: 270px;
-	position: relative;
-
+  position: relative;
+  top: 300px;
 }
 
 ul#thumbnails li div {
-	position: relative;
-	float: left;
+  position:               absolute;
+  top:                    50px;
+  left:                   50px;
 }
 
 /* Vertically centering images 
@@ -154,12 +153,6 @@ ul#thumbnails li div a label {
 	left:                   6px;
 }
 
-body.best_galleries#index ul#thumbnails li div {
-	position: relative;
-	float: left;
-	top: -35px;
-}
-
 body.videos#index ul#thumbnails li {
 	width:                  260px;
 	height:			280px;
@@ -170,7 +163,7 @@ body.videos#index ul#thumbnails li {
 }
 
 body.videos#index ul#thumbnails li div {
-	top: -55px;
+  left: 24px;
 }
 
 body.videos#index ul#thumbnails li div a {
@@ -503,7 +496,8 @@ body#search #search_result_count label {
 
 .quem_somos #main_content cite {
   display:                block;
-	padding:                46px 58px 14px 0;
+	padding:                200px 0 100px 0;
+	margin-bottom:          -8em;
 }
 /* /Who */
 
