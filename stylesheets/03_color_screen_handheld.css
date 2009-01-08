@@ -1,21 +1,4 @@
-/*
-Cores utilizadas no site:
-Laranja:					#c13c18;
-Input lighting:           #F6F0DF;
-Bege claro:					      #F6F0DB;
-Bege médio:					      #EFE3C3;
-Bege escuro:				      #E0C99B;
-Input shading:				    #BAA984;
-Bege escuro para marrom:  #B09A6F;
-Marrom:						        #7F6B43;
-Cinza claro:				      #555;
-Cinza escuro:				      #111;
-Rosa:						          #BF667F;					
-Vinho:                    #c13c18;
-
-
-
-  Color global attributes */
+/*Color global attributes */
 html * {
   color:                  #999;
 }
@@ -53,28 +36,27 @@ h4, h4 a {
 
 /* Header tabbed menu */
 #header {
-  background:             #111 url(../images/header_background.gif) top repeat-x;
+  background:             #111 url(../images/header_background.png) top repeat-x;
 }
 
 #header h1#logo_screen  {
   background:             #c13c18 url(../images/logo_background.gif) repeat-x;
 }
 
-#header h1#logo_screen img  {
-	color: #FFFFFF;
+#header h1#logo_screen a img  {
+	color:                  #EEE;
 }
 
-
-#header h1 img {
-  color:                  #c13c18;
+#header #logo_screen a:hover img {
+  color:                  #FFF;
 }
 
 #header li {
-  background:             #222 no-repeat left top;
+  background:             #222 no-repeat left bottom;
 }
 
 #header li a {
-	background:            url(../images/tab_corner_right2.gif) no-repeat right top;
+	background:            url(../images/tab_corner_right2.gif) no-repeat right bottom;
 	color: #d5d5d5;
 }
 
@@ -156,13 +138,8 @@ body.contact #header li.contact {
 
 /* Main content top segment */
 #main_content {
-	background:       #333 url(../images/main_content_background.gif) no-repeat;
+	background:       #333 url(../images/main_content_background.png) no-repeat;
 }
-
-body#picture #main_content, body#search_picture #main_content, body.videos#index #main_content {
-	background:       #333 url(../images/main_content_background_picture.gif) no-repeat;
-}
-
 
 #go_back_to_thumbnails {
 	background:             transparent url(../images/arrow_left.gif) no-repeat left center;

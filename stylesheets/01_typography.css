@@ -45,8 +45,6 @@ h4 a:focus, h4 a:hover {
 /* Header tabbed menu */
 #header h1 img {
   font-size:              60%;
-/*  text-transform:         lowercase;*/
-/*  word-spacing:           1em;*/
 }
 
 #header ul {
@@ -65,14 +63,7 @@ h4 a:focus, h4 a:hover {
 
 #header h1#logo_screen img {
   font-size:              100%;
-/*  font-family:            Georgia, "Times New Roman", Times, serif      ;*/
-  font-family:            "Avant Garde", "Avant Garde BT", "Avantgarde", "Century Gothic", Verdana, Helvetica, Arial, "Lucida Sans", "Trebuchet MS", sans-serif;
-/*  text-transform:         capitalize;*/
-/*  text-transform:         lowercase;*/
-/*  word-spacing:           0;*/
-/*  text-decoration: overline;*/
   text-align:             center;
-  line-height:            .65em;
 }
 
 
