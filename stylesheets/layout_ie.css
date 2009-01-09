@@ -30,14 +30,14 @@ body#selection h1 {
 }
 
 body#checkout #order_form {
-	top: -200px;
-	margin-left: 500px;
-	width: 50%;
-	float: right;
+/*  top: -200px;*/
+/*  margin-left: 500px;*/
+/*  width: 50%;*/
+/*  float: right;*/
 }
 
 body#checkout #order_form input {
-margin-left:140px;
+/*margin-left:140px;*/
   
 }
 
