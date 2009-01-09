@@ -316,8 +316,8 @@ body.videos #thumbnails img {
 }
 
 #big_picture img {
-/*  padding:                2px;*/
-/*  border:                 1px solid;*/
+  padding:                2px;
+  border:                 1px solid;
 }
 
 #big_picture label {
@@ -365,8 +365,8 @@ body.videos #thumbnails img {
   overflow:               hidden;
   text-align:center;
   
-  padding:                2px;
-	border:                 1px solid #C13C18;
+/*  padding:                2px;*/
+/*  border:                 1px solid #C13C18;*/
 }
 
 #big_picture a {
