@@ -78,12 +78,12 @@ a {
 
 /* Main content top segment */
 #main_content {
-	padding:                4.56em 3.9em;
+  padding:                73px 62px;
 }
 
 #subnavigation {
-	padding:                0;
-	margin:                 -1.85em 0 2.3em 0;
+  padding:                0;
+  margin:                 -1.6em 0 2.3em 0;
 }
 
 #subnavigation a {
@@ -91,11 +91,11 @@ a {
 }
 
 #subnavigation a, #see_data_sheet {
-	padding-left:           20px;
+  padding-left:           20px;
 }
 
 h1 {
-	margin-bottom:          0.7em;
+  margin-bottom:          0.7em;
 }
 body#selection h1 {
 	float:                  left;
@@ -555,52 +555,56 @@ body#checkout #order_form,
 body#checkout form label, 
 body#pictures_sent #order_form, 
 body#pictures_sent form label {
-  position:               relative;
+/*  position:               relative;*/
 }
 
 body#checkout #order_form, 
 body#pictures_sent #order_form {
+  border:1px dotted gray;
+  margin-top:1em;
+  margin:auto;
+  
 /*  float:                  right;*/
 /*  top:                    -128px;*/
-  position:               absolute;
-  top:                    272px;
-  right:                  70px;
+/*  position:               absolute;*/
+/*  top:                    272px;*/
+/*  right:                  70px;*/
 }
 
 body#checkout #order_form p, 
 body#pictures_sent #order_form p {
-  padding-left:            11em;
+/*  padding-left:            11em;*/
 }
 
 body#checkout form label, 
 body#pictures_sent form label {
-  left:                   100px;
+/*  left:                   100px;*/
 }
 
 body#checkout input, 
 body#pictures_sent input {
-  width:                  48%;
-  padding:                0 .3em;
-  border:                 1px inset;
-  margin-top:             -1.25em;
-  margin-right:           0;
-  margin-bottom:          .75em;
+/*  width:                  48%;*/
+/*  padding:                0 .3em;*/
+/*  border:                 1px inset;*/
+/*  margin-top:             -1.25em;*/
+/*  margin-right:           0;*/
+/*  margin-bottom:          .75em;*/
 }
 
 body#checkout button, 
 body#pictures_sent button {
-  float:                  right;
+/*  float:                  right;*/
 }
 
 body#pictures_sent #submit_error {
-  position:               absolute;
-  top:                    200px;
-  right:                  60px;
+/*  position:               absolute;*/
+/*  top:                    200px;*/
+/*  right:                  60px;*/
 }
 
 /* Specific for global search form */
 #global_search {
-	width:                  7.5em;
+	width:                  9em;
 	padding-left:           25px;
 	position:               absolute;
 	top:                    .8em;

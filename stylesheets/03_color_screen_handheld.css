@@ -97,7 +97,7 @@ body.blog #header li.blog a,
 
 /* Main content top segment */
 #main_content {
-	background:       #333 url(../images/main_content_background.png) no-repeat;
+  background:       #333 url(../images/main_content_background.png) no-repeat top left;
 }
 
 #go_back_to_thumbnails {
