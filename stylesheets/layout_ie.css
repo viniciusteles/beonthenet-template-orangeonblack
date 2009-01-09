@@ -110,7 +110,3 @@ label {
 *:first-child + html #facebox a {
 	right:                  -36px;
 }
-
-html * {
-  background:gray !important;
-}
