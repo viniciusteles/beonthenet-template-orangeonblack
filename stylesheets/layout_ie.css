@@ -62,11 +62,6 @@ body.videos#index #main_content {
 	padding:                0;
 }
 
-#header li a {
-	background:             url(../images/tab_corner_right2.gif) no-repeat right;
-	border-right: 1px solid #464646;
-}
-
 
 /* Vertically centering images */
 ul#thumbnails li div a {

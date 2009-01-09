@@ -71,23 +71,11 @@ h4, h4 a {
   color:                  #c13c18;
 }
 
-body.best_galleries #header li.best_galleries, 
-body.full_galleries #header li.full_galleries, 
-body.videos #header li.all_videos, 
-body.quem_somos #header li.quem_somos, 
-body.contact #header li.contact, 
-body.blog #header li.blog, 
 #header li.current {
 	background-color:       #c13c18;
 	background-image:       url(../images/tab_corner_left_current.gif);	
 }
 
-body.best_galleries #header li.best_galleries a,
-body.full_galleries #header li.full_galleries a, 
-body.videos #header li.all_videos a, 
-body.quem_somos #header li.quem_somos a,
-body.contact #header li.contact a, 
-body.blog #header li.blog a, 
 #header li.current a {
 	color:                  #FFFFFF;
 	background-image:       url(../images/tab_corner_right_current.gif);
