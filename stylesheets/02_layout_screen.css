@@ -361,7 +361,9 @@ body.videos #thumbnails img {
   position:               relative;
   right:                  22.9%;
   overflow:               hidden;
-                                                    border: 1px dotted gray;
+  
+  padding:                2px;
+	border:                 1px solid #C13C18;
 }
 
 #big_picture a {
