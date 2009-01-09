@@ -361,20 +361,21 @@ body.videos #thumbnails img {
   position:               relative;
   right:                  22.9%;
   overflow:               hidden;
+                                                    border: 1px dotted gray;
 }
 
 #big_picture a {
-	width:                  5.6em;
-	padding:                1em .3em .5em .3em;
-	position:               absolute;
-  top:                    0;
-  z-index:                1;
+/*  width:                  5.6em;*/
+/*  padding:                1em .3em .5em .3em;*/
+/*  position:               absolute;*/
+/*  top:                    0;*/
+/*  z-index:                1;*/
 }
 #big_picture #previous {
-  left:                   13.75em;
+/*  left:                   13.75em;*/
 }
 #big_picture #next {
-  right:                  13.75em;
+/*  right:                  13.75em;*/
 }
 
 
