@@ -390,7 +390,7 @@ body.videos #thumbnails img {
 }
 
 #selected_pictures {
-	width: 410px;
+/*  width: 410px;*/
 }
 
 #all_pictures li label, #all_pictures li a, 
@@ -522,6 +522,10 @@ input:hover, textarea:hover {
 	border:                 1px solid;
 }
 
+button, button * {
+	outline:                none;
+}
+
 button {
 	display:                block;
   padding:                .2em .5em;
@@ -541,10 +545,6 @@ button:active {
 	border-style:           outset;
 }
 
-button * {
-	outline:                none;
-}
-
 #submit_error, #submit_success {
 	padding:                .5em 8em;
 	margin-bottom:          1em;
@@ -552,56 +552,12 @@ button * {
 
 /* Specific for checkout e-mail form */                 /* WARNING: includes "pictures_sent" bug! */
 body#checkout #order_form, 
-body#checkout form label, 
-body#pictures_sent #order_form, 
-body#pictures_sent form label {
-/*  position:               relative;*/
-}
-
-body#checkout #order_form, 
 body#pictures_sent #order_form {
-/*  border:1px dotted gray;*/
-  margin-top:1.5em;
-/*  margin:auto;*/
-  
-/*  float:                  right;*/
-/*  top:                    -128px;*/
-/*  position:               absolute;*/
-/*  top:                    272px;*/
-/*  right:                  70px;*/
-}
-
-body#checkout #order_form p, 
-body#pictures_sent #order_form p {
-/*  padding-left:            11em;*/
-}
-
-body#checkout form label, 
-body#pictures_sent form label {
-/*  left:                   100px;*/
-}
-
-body#checkout input, 
-body#pictures_sent input {
-/*  width:                  48%;*/
-/*  padding:                0 .3em;*/
-/*  border:                 1px inset;*/
-/*  margin-top:             -1.25em;*/
-/*  margin-right:           0;*/
-/*  margin-bottom:          .75em;*/
-}
-
-body#checkout button, 
-body#pictures_sent button {
-/*  float:                  right;*/
+  margin-top:             1.5em;
 }
 
 body#pictures_sent #submit_error {
-/*  margin-top:               2em;*/
-  margin:                   2em 0 -2em 0;
-/*  position:               absolute;*/
-/*  top:                    200px;*/
-/*  right:                  60px;*/
+  margin:                 2em 0 -2em 0;
 }
 
 /* Specific for global search form */

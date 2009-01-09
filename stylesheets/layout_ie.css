@@ -26,38 +26,24 @@ hr {
 }
 
 body#selection h1 {
-	margin-bottom: 0          ;
-}
-
-body#checkout #order_form {
-/*  top: -200px;*/
-/*  margin-left: 500px;*/
-/*  width: 50%;*/
-/*  float: right;*/
-}
-
-body#checkout #order_form input {
-/*margin-left:140px;*/
-  
+	margin-bottom:          0;
 }
 
 body#selection #selection_size {
 	position:               relative;
 	top:                    .5em;
 	z-index:                1;
-	visibility: visible;
-	float: right;
-	left: -570px;
-	overflow: hidden;
-	color: #333333;
+	visibility:             visible;
+	float:                  right;
+	left:                   -570px;
+	overflow:               hidden;
+	color:                  #333333;
 	
 }
 
 body#selection h2#selection_size label {
 	visibility:             visible;
-
 }
-
 
 #big_picture label {
 	width:                  13%;
