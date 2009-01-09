@@ -108,5 +108,5 @@ label {
 
 /* IE7: */
 *:first-child + html #facebox a {
-	right:                  -36px;
+/*  right:                  -36px;*/
 }
