@@ -355,8 +355,8 @@ body.videos #thumbnails img {
 
 #big_picture {
   min-width:              800px;
-/*  width:                  1200px;*/
-  max-width:              1900px;
+  width:                  1900px;
+/*  max-width:              1900px;*/
   min-height:             33.25em;
   height:                 auto !important;
   margin-right:           -50%;
