@@ -117,9 +117,6 @@ h4, h4 a {
 
 
 /* Thumbnails */
-
-/* Vertically centering images 
-(conditional comments for IE required) */
 #gallery ul#thumbnails li {
 	background: url(../images/thumbnail_box_gallery.gif);
 }
@@ -148,11 +145,9 @@ body.videos #thumbnails h3 a {
 	color: #fff;
 }
 
-body.videos #thumbnails h3 a:hover {
-	color: #c13c18;
+body.videos #thumbnails h3 a:hover, body.videos #thumbnails h4 a {
+	color: #e3680a;
 }
-
-
 
 ul#thumbnails li div a {
 	background:             #000 url(../images/thumbnail_box_background.gif) no-repeat;
@@ -168,7 +163,6 @@ ul#thumbnails li div a:hover {
 ul#thumbnails li {
 	background: url(../images/thumbnail_box.gif);
 }
-
 
 ul#thumbnails a img, 
 #thumbnails label {
