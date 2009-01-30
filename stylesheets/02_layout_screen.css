@@ -301,23 +301,23 @@ body.videos #thumbnails img {
 
 #big_picture #previous  {
 	right:	183px;
-	right:                233px;
+	right:                243px;
 	
 }
 
 #big_video #previous {
 	right:	100px;
-	right:                150px;
+	right:                160px;
 }
 
 #big_picture #next {
 	right:	-5px;
-	right:                45px;
+	right:                55px;
 }
 
 #big_video #next {
 	right:	40px;
-	right:                90px;
+	right:                100px;
 }
 
 #big_picture a span, #big_video a span {
@@ -335,9 +335,9 @@ body.videos #thumbnails img {
 	width:                  13%;
 	padding:                3px;
 	position:               absolute;
-	right:                   35px;
-	right:                                  285px;
-	top: -44px;
+  top:                    -44px;
+	right:                  35px;
+	right:                                  85px !important;
 }
 
 #big_video object p {
