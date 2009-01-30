@@ -245,7 +245,7 @@ ul#thumbnails a:hover label {
 
 .pages strong {
   color:                  #fff;
-  background:			url(../images/pages_strong_background.gif) no-repeat ;
+  background:			url(../images/pages_strong_background.gif) no-repeat center;
 }
 /* /Paging */
 
