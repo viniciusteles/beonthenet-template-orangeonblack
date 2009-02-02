@@ -1,3 +1,9 @@
+html {
+  min-height:             700px;
+  height:                 auto !important;
+  height:                 700px;
+}
+
 html * {
 	padding:                0;
 	border:                 none;
