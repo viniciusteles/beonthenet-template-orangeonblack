@@ -336,7 +336,7 @@ body#selection #selection_size label {
 	border-color:           #c13c18;
 }
 
-#cart_items.instructions {
+#cart_items.text {
 	background:              #161616 url(../images/selection_instructions.png) no-repeat center center;	
 }
 
@@ -387,19 +387,6 @@ body#selection #selection_size label {
 	opacity:                .3;
 }
 /* /Selection */
-
-
-/* Who */
-.quem_somos dt, 
-.quem_somos #main_content strong {
-	color:	#fff;
-  	background-color:                  #c13c18;
-}
-
-.quem_somos cite {
-	background:             transparent url(../images/signature_patfig.gif) no-repeat right top;
-}
-/* /Who */
 
 
 /* Forms (contact, checkout, search) */
@@ -525,36 +512,35 @@ body#timeout #main_content h2 {
 
 
 
-/* Instructions */
-body.instructions #toc {
-  background:             #EFE3C3;
-  border-color:           #E0C99B;
+/* Text */
+.text dt, 
+.text #main_content strong {
+	color:                  #FFF;
+  background-color:       #c13c18;
 }
 
-body.instructions #main_content dt {
-  color:                  #c13c18;
+.text dt a, .text dt a:hover {
+  color:                  #FFF;
 }
 
 code {
-  color:                  #111;
-  background:             #EFE3C3; 
+  color:                  #EEE;
 }
 
-.instructions table * {
-  border-color:           #E0C99B;
+.text table * {
+  border-color:           #c13c18;
 }
 
-.instructions th {
-  color:                  #c13c18;
-  background:             #EFE3C3;
+.text th {
+  color:                  #FFF;
+  background:             #444;
 }
 
-.instructions td span {
-  color:                  #BAA984;
+.text td span {
+  color:                  #555  ;
 }
 
 pre {
-  background:             #EFE3C3;
-  border-color:           #E0C99B;
+  border-color:           #c13c18;
 }
-/* /Instructions */
+/* /Text */
