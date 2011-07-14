@@ -127,17 +127,17 @@ h4, h4 a {
 }
 
 #thumbnails cite.flickr a {
-  background:         transparent url(../images/flickr.png) no-repeat left 6px;
+  background:         transparent url(http://beonthe.net/accounts/beonthe.net/images/icons/flickr.png) no-repeat left 6px;
 }
 #thumbnails cite.flickr a:hover {
-  background-image:   url(../images/flickr_hover.png);
+  background-image:   url(http://beonthe.net/accounts/beonthe.net/images/icons/flickr_hover.png);
 }
 
 #thumbnails cite.picasa a {
-  background:         transparent url(http://beonthe.net/accounts/beonthe.net/images/icon_picasa.png) no-repeat left 1px;
+  background:         transparent url(http://beonthe.net/accounts/beonthe.net/images/icons/picasa.png) no-repeat left 1px;
 }
 #thumbnails cite.picasa a:hover {
-  background-image:   url(http://beonthe.net/accounts/beonthe.net/images/icon_picasa_hover.png);
+  background-image:   url(http://beonthe.net/accounts/beonthe.net/images/icons/picasa_hover.png);
 }
 
 body #footer h6 {
